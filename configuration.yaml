@@ -38,4 +38,4 @@ switch: !include_dir_merge_list switches
 weblink: !include weblink.yaml
 zone: !include_dir_merge_list zones
 
-verisure: !include_dir_named modules/verisure
+verisure: !include verisure.yaml
