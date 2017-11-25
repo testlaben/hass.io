@@ -1,5 +1,5 @@
 homeassistant:
-  name: Bulock Home
+  name: testlaben Home
   latitude: !secret home_latitude
   longitude: !secret home_longitude
   elevation: !secret home_elevation
