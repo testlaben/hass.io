@@ -1,1 +1,15 @@
 secrets.yaml
+*.db
+*.log
+*.xml
+*.db-journal
+*.sqlite
+*.conf
+.editorconfig
+deps
+www
+custom_components
+.HA_VERSION
+.uuid
+.ring_cache.pickle
+OZW_Log.txt
