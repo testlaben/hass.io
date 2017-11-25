@@ -1,0 +1,41 @@
+homeassistant:
+  name: Bulock Home
+  latitude: !secret home_latitude
+  longitude: !secret home_longitude
+  elevation: !secret home_elevation
+  unit_system: !secret home_units
+  time_zone: !secret home_timezone
+  customize: !include_dir_merge_named customizations
+
+http:
+  base_url: !secret http_base_url
+  api_password: !secret http_password
+
+discovery:
+sun:
+updater:
+frontend:
+conversation:
+zeroconf:
+alexa:
+map:
+config:
+
+history:
+logbook:
+
+alert: !include_dir_merge_named alerts
+automation: !include_dir_list automation
+binary_sensor: !include_dir_merge_list binary_sensors
+camera: !include_dir_merge_list cameras
+group: !include_dir_named groups
+input_select: !include_dir_merge_named input_selects
+intent_script: !include_dir_merge_named intent_scripts
+media_player: !include_dir_merge_list media_players
+scene: !include_dir_merge_list scenes
+sensor: !include_dir_merge_list sensors
+switch: !include_dir_merge_list switches
+weblink: !include weblink.yaml
+zone: !include_dir_merge_list zones
+
+verisure: !include_dir_named modules/verisure

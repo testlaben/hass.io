@@ -1,0 +1,9 @@
+username: !secret vs_user
+password: !secret vs_pass
+alarm: 1
+hygrometers: 1
+thermometers: 1
+smartplugs: 1
+locks: 1
+door_window: 0
+mouse: 0

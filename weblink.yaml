@@ -1,0 +1,5 @@
+entities:
+  - name: Router Admin
+    url: !secret weblink_router
+  - name: Pi.Hole
+    url: !secret weblink_pihole
