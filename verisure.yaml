@@ -1,5 +1,6 @@
 username: !secret vs_user
 password: !secret vs_pass
+code_digits: !secret vs_digits
 alarm: 1
 hygrometers: 1
 thermometers: 1
