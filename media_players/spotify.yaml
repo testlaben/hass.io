@@ -1,0 +1,5 @@
+- platform: spotify
+  client_id: !secret spotify_id
+  client_secret: !secret spotify_secret
+  aliases:
+      98120e8ee2621bedd18d954efc6b7de8c3c332a4: 'Amazon Echo Livingroom'
