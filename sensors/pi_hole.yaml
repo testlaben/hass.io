@@ -1,8 +1,0 @@
-- platform: pi_hole
-  location: !secret pi_hole_host
-  ssl: false
-  verify_ssl: false
-  monitored_conditions:
-    - ads_blocked_today
-    - ads_percentage_today
-    - dns_queries_today
