@@ -13,3 +13,4 @@ custom_components
 .uuid
 .ring_cache.pickle
 OZW_Log.txt
+known_devices.yaml
