@@ -1,0 +1,8 @@
+- platform: pi_hole
+  location: !secret pi_hole_host
+  monitored_conditions:
+    - ads_blocked_today
+    - ads_percentage_today
+    - dns_queries_today
+    - queries_cached
+    - queries_forwarded
