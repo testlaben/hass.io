@@ -1,3 +1,10 @@
-#- platform: kodi
-#  name: Living room Kodi
-#  host: !secret mp_kodi
+- platform: kodi
+  name: Living room Kodi
+  host: !secret kodi_host
+  username: !secret kodi_username
+  password: !secret kodi_password
+  turn_off_action:
+    service: media_player.kodi_call_method
+    data:
+      entity_id: media_player.kodi
+      method: Application.Quit
